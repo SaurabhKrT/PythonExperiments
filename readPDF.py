@@ -1,12 +1,6 @@
 '''This program renames the files in a folder with format 
 12344445-Some meaningful name.pdf to Some meaningful name.pdf'''
 
-
-#This program renames the files in a folder with format 
-#12344445-Some meaningfull name.pdf to Some meaningfull name.pdf
-
-
-
 import os
 import re
 
