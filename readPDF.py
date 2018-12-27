@@ -10,7 +10,7 @@ try:
       if file!=[]:# skips all empty lists
         parts = file.split('-')# split the the name into a list if - encountered
         if len(parts)>1:#checks if there are at least two elements in the list
-          new_name = '{}'.format(parts[1])# using the 2nd part of list create a new name
+          new_name = '{}'.format(parts[1])# using the 2nd element of the list create a new name
           src = 'folder path'+file
           dst  = 'folder path'+new_name
           os.rename(src, dst)
