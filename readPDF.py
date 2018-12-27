@@ -6,7 +6,7 @@ import re
 
 try:
   for file in os.listdir('folder path'):# lists the files in a given folder
-    if(re.search('.pdf', file) and file[:1] in '0123456789'):# checks the files with .pdf text
+    if(re.search('.pdf', file) and file[:1] in '0123456789'):# checks if the file has .pdf and start with numbers
       if file!=[]:# skips all empty lists
         parts = file.split('-')# split the the name into a list if - encountered
         if len(parts)>1:#checks if there are at least two elements in the list
